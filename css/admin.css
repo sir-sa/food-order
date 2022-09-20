@@ -1,0 +1,104 @@
+/* 
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    /* border:1px solid black; */
+    padding: 1px;
+    width: 80%;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+/* css for menu */
+.menu{
+    border-bottom: 1px solid green;
+}
+.menu li{
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#ff6b81;
+}
+.menu ul li a:hover{
+    
+    color:#e03750;
+}
+.tbl_full{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+   
+}
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+.btn-primary:hover{
+    background-color: #1e65ff;
+}
+.btn-secodary{
+    background-color: #7bed9f;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+.btn-secodary:hover{
+    background-color: #1eff8f;
+}
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+.btn-dager:hover{
+    background-color: #ff4757;
+}
+/* css fo main content */
+.main-content{
+    /* margin: 1px 0; */
+    background-color: #f1f1f6;
+    margin: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float:left;
+}
+/* css for footer */
+.footer{
+    background-color: brown;
+    color: white;
+}
